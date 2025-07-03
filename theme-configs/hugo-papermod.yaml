@@ -1,0 +1,158 @@
+theme: "PaperMod"
+defaultContentLanguage: "zh-cn"
+title: "AI文物修复项目策划书"
+enableRobotsTXT: true
+summaryLength: 30
+
+# 分页
+pagination:
+  pagerSize: 10
+
+# 输出格式
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  page: ["HTML", "RSS"]
+  section: ["HTML", "RSS"]
+
+# 隐私设置
+privacy:
+  vimeo:
+    enableDNT: true
+  x:
+    enableDNT: true
+  youTube:
+    privacyEnhanced: true
+
+# 主题参数
+params:
+  env: production
+  title: "AI文物修复项目策划书"
+  description: "基于人工智能技术的文物修复项目策划书，包含项目背景、产品介绍、市场分析等内容"
+  keywords: [AI, 文物修复, 人工智能, 文物保护, 技术项目]
+  author: "AI文物修复项目组"
+  
+  # 外观设置
+  defaultTheme: "light"
+  disableThemeToggle: false
+  
+  # 显示设置
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  showWordCount: true
+  showRssButtonInSectionTermList: true
+  useHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  
+  # 资源设置
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+    
+  # 首页设置
+  homeInfoParams:
+    Title: "AI文物修复项目策划书"
+    Content: "基于人工智能技术的文物修复项目策划书，致力于通过先进的AI技术实现文物的智能化修复与保护。"
+  
+  # 社交链接
+  socialIcons:
+    - name: github
+      url: "#"
+    - name: email
+      url: "mailto:contact@example.com"
+    
+  # 编辑链接
+  editPost:
+    URL: "https://github.com/username/repo/tree/main/content"
+    Text: "建议编辑"
+    appendFilePath: true
+    
+  # 标签设置
+  label:
+    text: "AI文物修复"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+    
+  # 首页模式 (可选: "info", "profile", "page")
+  mode: "info"
+  
+  # 搜索设置
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# 菜单设置
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: /
+      weight: 10
+    - identifier: docs
+      name: 文档
+      url: /docs/
+      weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 30
+    - identifier: archive
+      name: 归档
+      url: /archives/
+      weight: 40
+
+# Markdown 渲染相关
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+
+# 语言设置
+languages:
+  zh-cn:
+    languageName: "中文"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - identifier: home
+          name: 首页
+          url: /zh-cn/
+          weight: 10
+        - identifier: docs
+          name: 文档
+          url: /zh-cn/docs/
+          weight: 20
+        - identifier: search
+          name: 搜索
+          url: /zh-cn/search/
+          weight: 30 

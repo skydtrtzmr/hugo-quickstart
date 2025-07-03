@@ -4,48 +4,48 @@
   
     
       <url>
-            <loc>//localhost:1313/en/categories/</loc>
+            <loc>//localhost:12221/en/categories/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="zh-cn"
-              href="//localhost:1313/categories/"
+              href="//localhost:12221/categories/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="//localhost:1313/en/categories/"
+              href="//localhost:12221/en/categories/"
               />
           </url>
     
   
     
       <url>
-            <loc>//localhost:1313/en/</loc>
+            <loc>//localhost:12221/en/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="zh-cn"
-              href="//localhost:1313/"
+              href="//localhost:12221/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="//localhost:1313/en/"
+              href="//localhost:12221/en/"
               />
           </url>
     
   
     
       <url>
-            <loc>//localhost:1313/en/tags/</loc>
+            <loc>//localhost:12221/en/tags/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="zh-cn"
-              href="//localhost:1313/tags/"
+              href="//localhost:12221/tags/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="//localhost:1313/en/tags/"
+              href="//localhost:12221/en/tags/"
               />
           </url>
     

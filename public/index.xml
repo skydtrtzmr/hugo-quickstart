@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI文物修复项目策划书</title>
-    <link>//localhost:1313/</link>
+    <link>//localhost:12221/</link>
     <description>Recent content on AI文物修复项目策划书</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:12221/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>//localhost:1313/docs/chapter1-background-analysis/</link>
+      <link>//localhost:12221/docs/chapter1-background-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/chapter1-background-analysis/</guid>
+      <guid>//localhost:12221/docs/chapter1-background-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/docs/chapter2-product-intro/</link>
+      <link>//localhost:12221/docs/chapter2-product-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/chapter2-product-intro/</guid>
+      <guid>//localhost:12221/docs/chapter2-product-intro/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/docs/chapter3-market-analysis/</link>
+      <link>//localhost:12221/docs/chapter3-market-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/chapter3-market-analysis/</guid>
+      <guid>//localhost:12221/docs/chapter3-market-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/docs/chapter4-development-plan/</link>
+      <link>//localhost:12221/docs/chapter4-development-plan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/chapter4-development-plan/</guid>
+      <guid>//localhost:12221/docs/chapter4-development-plan/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/docs/chapter5-summary/</link>
+      <link>//localhost:12221/docs/chapter5-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/chapter5-summary/</guid>
+      <guid>//localhost:12221/docs/chapter5-summary/</guid>
       <description></description>
     </item>
   </channel>

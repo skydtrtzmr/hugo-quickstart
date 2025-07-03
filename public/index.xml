@@ -1,54 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI文物修复项目 on AI文物修复项目策划书</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in AI文物修复项目 on AI文物修复项目策划书</description>
+    <title>AI文物修复项目策划书</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on AI文物修复项目策划书</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第一章 项目背景深度分析</title>
-      <link>http://localhost:1313/docs/01-background/</link>
+      <title></title>
+      <link>//localhost:1313/docs/chapter1-background-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/01-background/</guid>
-      <description>&lt;h2 id=&#34;11-国内文物修复市场全景数据&#34;&gt;1.1 国内文物修复市场全景数据&lt;/h2&gt;&#xA;&lt;h3 id=&#34;111-文物出土动态监测数据2015-2024&#34;&gt;1.1.1 文物出土动态监测数据（2015-2024）&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;年份&lt;/th&gt;&#xA;          &lt;th&gt;出土总量(万件)&lt;/th&gt;&#xA;          &lt;th&gt;年增长率&lt;/th&gt;&#xA;          &lt;th&gt;基建考古占比&lt;/th&gt;&#xA;          &lt;th&gt;抢救性发掘占比&lt;/th&gt;&#xA;          &lt;th&gt;其他&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2015&lt;/td&gt;&#xA;          &lt;td&gt;7.82&lt;/td&gt;&#xA;          &lt;td&gt;/&lt;/td&gt;&#xA;          &lt;td&gt;51%&lt;/td&gt;&#xA;          &lt;td&gt;39%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2016&lt;/td&gt;&#xA;          &lt;td&gt;8.15&lt;/td&gt;&#xA;          &lt;td&gt;4.22%&lt;/td&gt;&#xA;          &lt;td&gt;53%&lt;/td&gt;&#xA;          &lt;td&gt;37%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2017&lt;/td&gt;&#xA;          &lt;td&gt;8.93&lt;/td&gt;&#xA;          &lt;td&gt;9.57%&lt;/td&gt;&#xA;          &lt;td&gt;55%&lt;/td&gt;&#xA;          &lt;td&gt;35%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2018&lt;/td&gt;&#xA;          &lt;td&gt;9.24&lt;/td&gt;&#xA;          &lt;td&gt;3.47%&lt;/td&gt;&#xA;          &lt;td&gt;56%&lt;/td&gt;&#xA;          &lt;td&gt;34%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2019&lt;/td&gt;&#xA;          &lt;td&gt;8.71&lt;/td&gt;&#xA;          &lt;td&gt;-5.74%&lt;/td&gt;&#xA;          &lt;td&gt;57%&lt;/td&gt;&#xA;          &lt;td&gt;33%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2020&lt;/td&gt;&#xA;          &lt;td&gt;11.35&lt;/td&gt;&#xA;          &lt;td&gt;30.31%&lt;/td&gt;&#xA;          &lt;td&gt;58%&lt;/td&gt;&#xA;          &lt;td&gt;32%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021&lt;/td&gt;&#xA;          &lt;td&gt;12.08&lt;/td&gt;&#xA;          &lt;td&gt;6.43%&lt;/td&gt;&#xA;          &lt;td&gt;58%&lt;/td&gt;&#xA;          &lt;td&gt;32%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022&lt;/td&gt;&#xA;          &lt;td&gt;12.97&lt;/td&gt;&#xA;          &lt;td&gt;7.37%&lt;/td&gt;&#xA;          &lt;td&gt;58%&lt;/td&gt;&#xA;          &lt;td&gt;32%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023&lt;/td&gt;&#xA;          &lt;td&gt;13.42&lt;/td&gt;&#xA;          &lt;td&gt;3.47%&lt;/td&gt;&#xA;          &lt;td&gt;58%&lt;/td&gt;&#xA;          &lt;td&gt;32%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024&lt;/td&gt;&#xA;          &lt;td&gt;6.71(半年)&lt;/td&gt;&#xA;          &lt;td&gt;/&lt;/td&gt;&#xA;          &lt;td&gt;59%&lt;/td&gt;&#xA;          &lt;td&gt;31%&lt;/td&gt;&#xA;          &lt;td&gt;10%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;数据来源：国家文物局《全国考古工作年报》（2015-2024）&lt;br&gt;&#xA;*注：2024年为上半年预估数据&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/chapter1-background-analysis/</guid>
+      <description></description>
     </item>
     <item>
-      <title>第二章 项目产品介绍</title>
-      <link>http://localhost:1313/docs/02-product/</link>
+      <title></title>
+      <link>//localhost:1313/docs/chapter2-product-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/02-product/</guid>
-      <description>&lt;h2 id=&#34;21-产品概述&#34;&gt;2.1 产品概述&lt;/h2&gt;&#xA;&lt;p&gt;多功能 AI 文化遗产保护平台，是一款融合前沿 AI 技术与深厚历史文化底蕴，致力于全方位守护文化遗产的综合性解决方案。它打破传统保护模式的局限，将文物保护、修复、研究、传播等多环节有机整合。&lt;/p&gt;&#xA;&lt;h2 id=&#34;22-产品理念&#34;&gt;2.2 产品理念&lt;/h2&gt;&#xA;&lt;p&gt;在历史的长河中，文物承载着无数文明的记忆，但岁月的侵蚀、人为的破坏，自然的洗礼让它们伤痕累累。传统文物修复依赖工匠的经验与技艺，效率与精准度存在一定局限。如今，我们创新性地整合高分辨率三维扫描仪、多光谱 / 高光谱成像系统、X 射线成像 / 计算机断层扫描及显微成像设备，并深度融入 AI 技术，打造全新的 AI 文物修复产品，开启文物保护与修复的智能新时代。&lt;/p&gt;&#xA;&lt;p&gt;高分辨率三维扫描仪能够以亚毫米级精度捕捉文物的三维几何形态，无论是青铜器上的复杂纹饰，还是陶器表面细微的凹凸起伏，都能完整、精确地数字化呈现。它如同一位 “数字雕刻师”，为文物构建出逼真的三维数字模型，让文物的每一处细节都能被清晰观察与分析。&lt;/p&gt;&#xA;&lt;p&gt;多光谱 / 高光谱成像系统则像是文物的 “色彩解码器”，通过捕捉文物在不同光谱下的反射与吸收特性，不仅能还原文物原本绚丽的色彩，还能探测到肉眼难以察觉的褪色、病变区域。例如，壁画在可见光下看似完好，但在特定光谱下，可能暴露出颜料剥落、霉菌滋生等问题，为修复工作提供关键线索。&lt;/p&gt;&#xA;&lt;p&gt;X 射线成像 / 计算机断层扫描技术宛如 “文物透视眼”，可穿透文物表面，观察其内部结构。对于中空的瓷器、金属器物，能检测内部是否存在裂痕、腐蚀，判断支撑结构是否稳固。通过断层扫描生成的三维图像，修复师能像 “拆解积木” 一样，深入了解文物内部的每一处细节，为制定科学的修复方案提供依据。&lt;/p&gt;&#xA;&lt;p&gt;显微成像设备则聚焦于文物微观世界，将文物表面的材质变化、微生物侵蚀等微观特征放大呈现在眼前。在对纸质文物、纺织品修复时，显微镜下纤维的断裂、老化程度清晰可见，帮助修复师选择最合适的修复材料与工艺。&lt;/p&gt;&#xA;&lt;p&gt;当这些设备采集到海量、多维度的文物数据后，AI 技术将发挥核心作用。利用深度学习算法，AI 能够对文物的损伤情况进行智能诊断，通过分析大量历史修复案例与文物数据，快速制定出最优化的修复方案。在修复过程中，AI 还能实时监控修复进度，根据实际情况动态调整修复策略，确保修复效果既符合文物保护原则，又最大程度还原其历史风貌。&lt;/p&gt;&#xA;&lt;p&gt;我们的 AI 文物修复产品以 “科技守护文明，智能重塑历史” 为核心理念，打破传统修复的时间与空间限制，提升修复效率与质量。它不仅是一套工具，更是一个集数据采集、分析诊断、智能修复于一体的综合性平台，致力于让每一件文物都能重焕生机，将中华文明的瑰宝完好地传承&lt;/p&gt;&#xA;&lt;h2 id=&#34;23-产品优势&#34;&gt;2.3 产品优势&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;&#xA;&lt;h2 id=&#34;24-产品组成部分与工作运行原理&#34;&gt;2.4 产品组成部分与工作运行原理&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/chapter2-product-intro/</guid>
+      <description></description>
     </item>
     <item>
-      <title>第三章 市场分析</title>
-      <link>http://localhost:1313/docs/03-market/</link>
+      <title></title>
+      <link>//localhost:1313/docs/chapter3-market-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/03-market/</guid>
-      <description>&lt;h2 id=&#34;31-市场定位&#34;&gt;3.1 市场定位&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;&#xA;&lt;h2 id=&#34;32-市场需求&#34;&gt;3.2 市场需求&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;&#xA;&lt;h2 id=&#34;33-主要市场&#34;&gt;3.3 主要市场&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/chapter3-market-analysis/</guid>
+      <description></description>
     </item>
     <item>
-      <title>第四章 发展规划</title>
-      <link>http://localhost:1313/docs/04-plan/</link>
+      <title></title>
+      <link>//localhost:1313/docs/chapter4-development-plan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/04-plan/</guid>
-      <description>&lt;h2 id=&#34;41-市场推广&#34;&gt;4.1 市场推广&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;&#xA;&lt;h2 id=&#34;42-困难与解决措施&#34;&gt;4.2 困难与解决措施&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;&#xA;&lt;h2 id=&#34;43-可持续性发展措施&#34;&gt;4.3 可持续性发展措施&lt;/h2&gt;&#xA;&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/chapter4-development-plan/</guid>
+      <description></description>
     </item>
     <item>
-      <title>第五章 总结</title>
-      <link>http://localhost:1313/docs/05-summary/</link>
+      <title></title>
+      <link>//localhost:1313/docs/chapter5-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/05-summary/</guid>
-      <description>&lt;p&gt;（内容略，后续可补充）&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI文物修复项目策划书</title>
-      <link>http://localhost:1313/docs/ai-artifact-restoration-proposal/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/ai-artifact-restoration-proposal/</guid>
-      <description>运用先进的人工智能技术，为文化遗产保护与修复提供创新解决方案</description>
+      <guid>//localhost:1313/docs/chapter5-summary/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

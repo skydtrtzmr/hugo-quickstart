@@ -1,0 +1,20 @@
+baseURL = 'https://192.168.159.1:1313'
+languageCode = 'zh-cn'
+title = 'AI文物修复项目策划书'
+theme = 'doks'
+
+# 网站参数
+[params]
+  description = "运用先进的人工智能技术，为文化遗产保护与修复提供创新解决方案"
+  keywords = ["AI", "文物修复", "人工智能", "文化遗产", "科技创新"]
+  author = "AI文物修复项目团队"
+
+# Markdown配置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
+    startLevel = 1 

@@ -1,0 +1,15 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-theme-relearn"]
+	path = themes/hugo-theme-relearn
+	url = https://github.com/McShelby/hugo-theme-relearn.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
+[submodule "themes/academic-cv"]
+	path = themes/academic-cv
+	url = https://github.com/HugoBlox/theme-academic-cv.git
+[submodule "themes/doks"]
+	path = themes/doks
+	url = https://github.com/thuliteio/doks.git

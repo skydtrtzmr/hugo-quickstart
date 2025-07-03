@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on AI文物修复项目策划书</title>
-    <link>//localhost:12221/tags/</link>
+    <link>//localhost:14867/tags/</link>
     <description>Recent content in Tags on AI文物修复项目策划书</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="//localhost:12221/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:14867/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

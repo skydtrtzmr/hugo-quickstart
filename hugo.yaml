@@ -37,6 +37,10 @@ params:
   enableImageWebp: true
   enableQuicklink: true
   fingerprintAlgorithm: "sha256"
+  
+  # 自定义CSS
+  customCSS: ["css/extended.css"]
+  
   header:
     layout: "basic"
     showTitle: true
@@ -46,7 +50,7 @@ params:
     showAppearanceSwitcher: true
     showScrollToTop: true
   homepage:
-    layout: "custom"
+    layout: "page"
     showRecent: true
     recentLimit: 5
   article:
@@ -85,4 +89,10 @@ markup:
     noClasses: false
   tableOfContents:
     startLevel: 2
-    endLevel: 3 
+    endLevel: 3
+
+# 语言配置简化
+languages:
+  zh-cn:
+    languageName: "简体中文"
+    weight: 1 

@@ -1,0 +1,90 @@
+/* 首页背景图片设置 */
+body.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/FuzerCastle_ZH-CN5485191349_1920x1080.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* 首页内容区域样式优化 */
+.home main {
+    background-color: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    margin: 2rem auto;
+    padding: 3rem;
+    max-width: 1200px;
+}
+
+/* 深色模式下的首页样式 */
+.dark body.home main {
+    background-color: rgba(31, 41, 55, 0.96);
+}
+
+/* 章节卡片样式 */
+.home .grid > div {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.home .grid > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* lead样式增强 */
+.home .lead {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 按钮样式优化 */
+.home .button {
+    transition: all 0.3s ease;
+}
+
+.home .button:hover {
+    transform: scale(1.05);
+}
+
+/* alert组件样式增强 */
+.home .alert {
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 图片样式 */
+.home figure img {
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* 标题文字阴影 */
+.home h1, .home h2, .home h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .home main {
+        margin: 1rem;
+        padding: 2rem 1.5rem;
+        border-radius: 15px;
+    }
+    
+    body.home {
+        background-attachment: scroll;
+    }
+    
+    .home .grid {
+        grid-template-columns: 1fr;
+    }
+} 

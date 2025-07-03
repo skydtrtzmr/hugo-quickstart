@@ -1,6 +1,4 @@
 {{ define "main" }}
-{{/* 检查是否使用congo主题，如果不是则使用默认模板 */}}
-{{ if eq .Site.Params.theme "congo" }}
   {{- $images := .Resources.ByType "image" }}
   {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover }}
@@ -65,20 +63,4 @@
       {{ end }}
     </footer>
   </article>
-{{ else }}
-  {{/* 对于其他主题，使用基本的单页布局或调用主题默认模板 */}}
-  <article class="prose lg:prose-xl mx-auto">
-    <header>
-      <h1>{{ .Title }}</h1>
-      {{ if .Date }}
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-          {{ .Date.Format "2006年1月2日" }}
-        </time>
-      {{ end }}
-    </header>
-    <main>
-      {{ .Content }}
-    </main>
-  </article>
-{{ end }}
 {{ end }} 

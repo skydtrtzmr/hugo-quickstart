@@ -28,7 +28,7 @@ services:
 
 # 主题参数
 params:
-  colorScheme: "congo"
+  colorScheme: "Ocean"
   defaultAppearance: "light"
   autoSwitchAppearance: true
   enableSearch: true

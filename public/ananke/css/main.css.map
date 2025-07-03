@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "E:/ProgramProjects/VScode_projects/hugo_projects/quickstart",
+	"sourceRoot": "E:/ProgramProjects/VScode_projects/hugo_projects/hugo-quickstart",
 	"sources": [
 		"ananke/css/main.css"
 	],

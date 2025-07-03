@@ -50,12 +50,5 @@
       <guid>http://localhost:1313/docs/ai-artifact-restoration-proposal/</guid>
       <description>运用先进的人工智能技术，为文化遗产保护与修复提供创新解决方案</description>
     </item>
-    <item>
-      <title>Resources</title>
-      <link>http://localhost:1313/docs/resources/</link>
-      <pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate>
-      <guid>http://localhost:1313/docs/resources/</guid>
-      <description>&lt;p&gt;Link to valuable, relevant resources.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

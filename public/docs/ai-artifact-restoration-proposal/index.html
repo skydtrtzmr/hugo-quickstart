@@ -1,487 +1,120 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI文物修复项目策划书 - AI文物修复项目策划书</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>AI文物修复项目策划书 | AI文物修复项目策划书</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="运用先进的人工智能技术，为文化遗产保护与修复提供创新解决方案">
+    <meta name="generator" content="Hugo 0.147.9">
     
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <meta name="robots" content="noindex, nofollow">
     
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-        
-        .navbar {
-            background-color: #2c3e50 !important;
-            box-shadow: 0 2px 4px rgba(0,0,0,.1);
-        }
-        
-        .navbar-brand {
-            font-weight: 700;
-            color: white !important;
-        }
-        
-        .nav-link {
-            color: rgba(255,255,255,0.8) !important;
-            font-weight: 500;
-        }
-        
-        .nav-link:hover {
-            color: white !important;
-        }
-        
-        main {
-            min-height: calc(100vh - 56px);
-        }
-        
-        footer {
-            background-color: #34495e;
-            color: white;
-            padding: 2rem 0;
-            margin-top: auto;
-        }
-        
-        .hero-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 4rem 0;
-        }
-        
-        .feature-card {
-            transition: transform 0.3s ease;
-            border: none;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .btn-primary {
-            background-color: #3498db;
-            border-color: #3498db;
-        }
-        
-        .btn-primary:hover {
-            background-color: #2980b9;
-            border-color: #2980b9;
-        }
-    </style>
+    <meta name="author" content="AI文物修复项目团队">
     
-    
-<style>
-    .content-wrapper {
-        display: flex;
-        min-height: calc(100vh - 112px);
-    }
-    
-    .toc-sidebar {
-        width: 280px;
-        background-color: #f8f9fa;
-        border-right: 1px solid #dee2e6;
-        padding: 1.5rem;
-        position: sticky;
-        top: 76px;
-        height: calc(100vh - 76px);
-        overflow-y: auto;
-        flex-shrink: 0;
-    }
-    
-    .toc-title {
-        color: #2c3e50;
-        font-size: 1.1rem;
-        font-weight: 600;
-        margin-bottom: 1rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid #3498db;
-    }
-    
-    .toc-content {
-        font-size: 0.9rem;
-    }
-    
-    .toc-content ul {
-        list-style: none;
-        padding-left: 0;
-        margin: 0;
-    }
-    
-    .toc-content li {
-        margin: 0.3rem 0;
-    }
-    
-    .toc-content a {
-        color: #555;
-        text-decoration: none;
-        display: block;
-        padding: 0.3rem 0.5rem;
-        border-radius: 4px;
-        transition: all 0.3s ease;
-        font-weight: 500;
-    }
-    
-    .toc-content a:hover {
-        background-color: #e3f2fd;
-        color: #1976d2;
-        transform: translateX(3px);
-    }
-    
-    .toc-content a.active {
-        background-color: #3498db;
-        color: white;
-    }
-    
-     
-    .toc-content ul ul {
-        padding-left: 1rem;
-        border-left: 2px solid #e0e0e0;
-        margin-left: 0.5rem;
-    }
-    
-    .toc-content ul ul a {
-        font-size: 0.85rem;
-        color: #666;
-    }
-    
-    .content-main {
-        flex: 1;
-        padding: 2rem;
-        max-width: calc(100% - 280px);
-    }
-    
-    .article-header {
-        margin-bottom: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid #eee;
-    }
-    
-    .article-title {
-        color: #2c3e50;
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        line-height: 1.3;
-    }
-    
-    .article-meta {
-        color: #666;
-        font-size: 0.9rem;
-    }
-    
-    .article-content {
-        line-height: 1.8;
-        font-size: 1.1rem;
-    }
-    
-    .article-content h1,
-    .article-content h2,
-    .article-content h3,
-    .article-content h4,
-    .article-content h5,
-    .article-content h6 {
-        color: #2c3e50;
-        font-weight: 600;
-        margin: 2rem 0 1rem 0;
-        line-height: 1.4;
-    }
-    
-    .article-content h1 {
-        font-size: 2rem;
-        border-bottom: 3px solid #3498db;
-        padding-bottom: 0.5rem;
-    }
-    
-    .article-content h2 {
-        font-size: 1.7rem;
-        border-bottom: 2px solid #e74c3c;
-        padding-bottom: 0.3rem;
-    }
-    
-    .article-content h3 {
-        font-size: 1.4rem;
-        color: #e67e22;
-    }
-    
-    .article-content h4 {
-        font-size: 1.2rem;
-        color: #27ae60;
-    }
-    
-    .article-content p {
-        margin-bottom: 1.2rem;
-        text-align: justify;
-    }
-    
-    .article-content ul,
-    .article-content ol {
-        margin-bottom: 1.2rem;
-        padding-left: 2rem;
-    }
-    
-    .article-content li {
-        margin-bottom: 0.5rem;
-    }
-    
-    .article-content blockquote {
-        border-left: 4px solid #3498db;
-        background-color: #f8f9fa;
-        padding: 1rem 1.5rem;
-        margin: 1.5rem 0;
-        font-style: italic;
-    }
-    
-    .article-content table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 1.5rem 0;
-    }
-    
-    .article-content th,
-    .article-content td {
-        border: 1px solid #ddd;
-        padding: 0.75rem;
-        text-align: left;
-    }
-    
-    .article-content th {
-        background-color: #f5f5f5;
-        font-weight: 600;
-    }
-    
-     
-    @media (max-width: 768px) {
-        .content-wrapper {
-            flex-direction: column;
-        }
-        
-        .toc-sidebar {
-            width: 100%;
-            height: auto;
-            position: static;
-            border-right: none;
-            border-bottom: 1px solid #dee2e6;
-        }
-        
-        .content-main {
-            max-width: 100%;
-            padding: 1rem;
-        }
-        
-        .article-title {
-            font-size: 2rem;
-        }
-    }
-</style>
-
-</head>
-<body>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="http://localhost:1313/">
-                <i class="fas fa-monument me-2"></i>AI文物修复项目策划书
-            </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:1313/">
-                            <i class="fas fa-home me-1"></i>首页
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/docs/策划书/">
-                            <i class="fas fa-file-alt me-1"></i>项目策划书
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     
-    <main>
-        
-<div class="content-wrapper">
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
     
-    <aside class="toc-sidebar">
-        <h5 class="toc-title">
-            <i class="fas fa-list me-2"></i>文章目录
-        </h5>
-        <div class="toc-content">
-            <nav id="TableOfContents">
-  <ul>
-    <li><a href="#第一章-项目背景深度分析">第一章 项目背景深度分析</a>
-      <ul>
-        <li><a href="#11-国内文物修复市场全景数据">1.1 国内文物修复市场全景数据</a>
-          <ul>
-            <li><a href="#111-文物出土动态监测数据2015-2024">1.1.1 文物出土动态监测数据（2015-2024）</a></li>
-            <li><a href="#112-文物修复效率多维度分析">1.1.2 文物修复效率多维度分析</a></li>
-            <li><a href="#113-供需矛盾结构化分析">1.1.3 供需矛盾结构化分析</a></li>
-          </ul>
-        </li>
-        <li><a href="#12-国家政策导向">1.2 国家政策导向</a>
-          <ul>
-            <li><a href="#121-国家政策">1.2.1 国家政策</a></li>
-            <li><a href="#122-行业修复标准">1.2.2 行业修复标准</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#第二章-项目产品介绍">第二章 项目产品介绍</a>
-      <ul>
-        <li><a href="#21-产品概述">2.1 产品概述</a></li>
-        <li><a href="#22-产品理念">2.2 产品理念</a></li>
-        <li><a href="#23-产品优势">2.3 产品优势</a>
-          <ul>
-            <li>
-              <ul>
-                <li><a href="#一数据采集精准全面">一、数据采集精准全面​</a></li>
-                <li><a href="#二损伤诊断智能高效">二、损伤诊断智能高效​</a></li>
-                <li><a href="#三修复方案科学可靠">三、修复方案科学可靠​</a></li>
-                <li><a href="#四修复过程动态监控">四、修复过程动态监控​</a></li>
-                <li><a href="#五突破时空限制">五、突破时空限制​</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#24-产品组成部分与工作运行原理">2.4 产品组成部分与工作运行原理</a>
-          <ul>
-            <li><a href="#241-外部扫描仪器文物的数字感官">2.4.1 外部扫描仪器：文物的“数字感官”</a>
-              <ul>
-                <li><a href="#1-高分辨率三维扫描仪">1. 高分辨率三维扫描仪：</a></li>
-                <li><a href="#2-多光谱高光谱成像系统">2. 多光谱/高光谱成像系统：</a></li>
-                <li><a href="#3-x射线成像计算机断层扫描">3. X射线成像/计算机断层扫描：</a></li>
-                <li><a href="#4-显微成像设备">4. 显微成像设备：</a></li>
-              </ul>
-            </li>
-            <li><a href="#242-内部ai程序系统的智慧大脑">2.4.2 内部AI程序：系统的“智慧大脑”</a>
-              <ul>
-                <li><a href="#1-数据融合与三维重建引擎">1. 数据融合与三维重建引擎：</a></li>
-                <li><a href="#2-智能诊断与病害识别模块">2. 智能诊断与病害识别模块：</a></li>
-                <li><a href="#3-虚拟修复与方案生成模块">3. 虚拟修复与方案生成模块：</a></li>
-                <li><a href="#4-修复决策支持与方案优化模块">4. 修复决策支持与方案优化模块：</a></li>
-                <li><a href="#5-修复过程监控与记录模块">5. 修复过程监控与记录模块：</a></li>
-                <li><a href="#6-核心数据库与知识库">6. 核心数据库与知识库：</a></li>
-              </ul>
-            </li>
-            <li><a href="#243-工作原理从扫描到修复的闭环流程">2.4.3 工作原理：从扫描到修复的闭环流程</a>
-              <ul>
-                <li><a href="#1-数据采集与孪生构建">1. 数据采集与孪生构建：</a></li>
-                <li><a href="#2-ai智能诊断与评估">2. AI智能诊断与评估：</a></li>
-                <li><a href="#3-虚拟修复方案生成">3. 虚拟修复方案生成：</a></li>
-                <li><a href="#4-人机协同决策与方案优化">4. 人机协同决策与方案优化：</a></li>
-                <li><a href="#5-物理修复与ai辅助实施">5. 物理修复与AI辅助实施：</a></li>
-                <li><a href="#6-修复后记录与归档">6. 修复后记录与归档：</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#25-总结">2.5 总结</a></li>
-      </ul>
-    </li>
-    <li><a href="#第三章-市场分析">第三章 市场分析</a>
-      <ul>
-        <li><a href="#31-市场定位">3.1 市场定位</a></li>
-        <li><a href="#32-市场需求">3.2 市场需求</a></li>
-        <li><a href="#33-主要市场">3.3 主要市场</a></li>
-      </ul>
-    </li>
-    <li><a href="#第四章-发展规划">第四章 发展规划</a>
-      <ul>
-        <li><a href="#41-市场推广">4.1 市场推广</a>
-          <ul>
-            <li>
-              <ul>
-                <li><a href="#1-线上线下融合推广">1. 线上线下融合推广</a></li>
-                <li><a href="#2-合作伙伴拓展">2. 合作伙伴拓展</a></li>
-                <li><a href="#3-品牌建设与营销">3. 品牌建设与营销</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#42-困难与解决措施">4.2 困难与解决措施</a>
-          <ul>
-            <li>
-              <ul>
-                <li><a href="#1-技术适配与优化挑战">1. 技术适配与优化挑战</a></li>
-                <li><a href="#2-资金压力与融资难题">2. 资金压力与融资难题</a></li>
-                <li><a href="#3-人才短缺与团队建设困境">3. 人才短缺与团队建设困境</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#43-可持续性发展措施">4.3 可持续性发展措施</a>
-          <ul>
-            <li>
-              <ul>
-                <li><a href="#1-持续研发与创新投入">1. 持续研发与创新投入</a></li>
-                <li><a href="#2-客户关系维护与拓展">2. 客户关系维护与拓展</a></li>
-                <li><a href="#3-行业生态构建与贡献">3. 行业生态构建与贡献</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#第五章-总结">第五章 总结</a></li>
-  </ul>
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/docs/ai-artifact-restoration-proposal/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/docs/ai-artifact-restoration-proposal/">
+  <meta property="og:site_name" content="AI文物修复项目策划书">
+  <meta property="og:title" content="AI文物修复项目策划书">
+  <meta property="og:description" content="运用先进的人工智能技术，为文化遗产保护与修复提供创新解决方案">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2024-12-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-01T00:00:00+00:00">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="文物修复">
+    <meta property="article:tag" content="科技">
+    <meta property="article:tag" content="策划书">
+
+  <meta itemprop="name" content="AI文物修复项目策划书">
+  <meta itemprop="description" content="运用先进的人工智能技术，为文化遗产保护与修复提供创新解决方案">
+  <meta itemprop="datePublished" content="2024-12-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-12-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="466">
+  <meta itemprop="keywords" content="AI,文物修复,科技,策划书">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI文物修复项目策划书">
+  <meta name="twitter:description" content="运用先进的人工智能技术，为文化遗产保护与修复提供创新解决方案">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        AI文物修复项目策划书
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
 </nav>
-        </div>
-    </aside>
-    
-    
-    <div class="content-main">
-        <article class="article">
-            
-            <header class="article-header">
-                <h1 class="article-title">AI文物修复项目策划书</h1>
-                <div class="article-meta">
-                    <span class="me-3">
-                        <i class="fas fa-calendar me-1"></i>
-                        2024年12月01日
-                    </span>
-                    
-                    <span class="me-3">
-                        <i class="fas fa-tags me-1"></i>
-                        
-                            
-                            <span class="badge bg-secondary">AI</span>
-                        
-                            , 
-                            <span class="badge bg-secondary">文物修复</span>
-                        
-                            , 
-                            <span class="badge bg-secondary">科技</span>
-                        
-                            , 
-                            <span class="badge bg-secondary">策划书</span>
-                        
-                    </span>
-                    
-                    
-                    <span>
-                        <i class="fas fa-clock me-1"></i>
-                        阅读时间约 3 分钟
-                    </span>
-                    
-                </div>
-            </header>
-            
-            
-            <div class="article-content">
-                <h1 id="第一章-项目背景深度分析">第一章 项目背景深度分析</h1>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        文档
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">AI文物修复项目策划书</h1>
+      
+      <p class="tracked"><strong>AI文物修复项目团队</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-12-01T00:00:00Z">December 1, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="第一章-项目背景深度分析">第一章 项目背景深度分析</h1>
 <h2 id="11-国内文物修复市场全景数据">1.1 国内文物修复市场全景数据</h2>
 <h3 id="111-文物出土动态监测数据2015-2024">1.1.1 文物出土动态监测数据（2015-2024）</h3>
 <table>
@@ -929,80 +562,53 @@
 <h4 id="3-行业生态构建与贡献">3. 行业生态构建与贡献</h4>
 <p>积极参与文物修复行业的标准制定、技术规范推广等工作，将本项目的技术成果和实践经验分享给行业，推动整个文物修复行业的规范化、标准化发展，提升行业整体水平。与文博机构、文物修复企业、相关行业协会等合作，共同开展文化遗产保护公益活动、科普教育活动，提高公众对文化遗产保护的意识和参与度，营造良好的行业发展环境，同时也为公司的品牌推广和社会形象提升创造机会。通过构建良好的行业生态环境，促进公司与行业内的各方协同发展，实现公司业务的长期稳定发展，并为文化遗产保护事业做出更大的贡献。</p>
 <h1 id="第五章-总结">第五章 总结</h1>
-<p>本AI 文物修复项目紧密围绕国内文物修复市场的实际需求和国家政策导向，凭借其先进的技术理念、显著的产品优势以及全面的功能体系，为文物保护和修复领域提供了一种全新的、高效的解决方案。在项目背景下，深入分析了文物出土动态、修复效率、人才缺口、设备配置等市场现状，明确了文物修复市场面临的巨大挑战和迫切需求。同时，国家政策的支持和行业标准的不断完善为项目的推进提供了有力的保障和广阔的发展空间，项目产品从概念提出到功能实现，都充分体现了对行业痛点的精准把握和技术创新的深度融合。</p>
+<p>本AI文物修复项目紧密围绕国内文物修复市场的实际需求和国家政策导向，凭借其先进的技术理念、显著的产品优势以及全面的功能体系，为文物保护和修复领域提供了一种全新的、高效的解决方案。在项目背景下，深入分析了文物出土动态、修复效率、人才缺口、设备配置等市场现状，明确了文物修复市场面临的巨大挑战和迫切需求。同时，国家政策的支持和行业标准的不断完善为项目的推进提供了有力的保障和广阔的发展空间，项目产品从概念提出到功能实现，都充分体现了对行业痛点的精准把握和技术创新的深度融合。</p>
 <p>在市场定位上，明确将产品定位于服务各级文物局、博物馆、考古所等专业文博机构，满足其在文物修复、保护、研究等方面的多样化需求，具有明确的市场需求和发展前景。通过市场推广、合作伙伴拓展、品牌建设等一系列发展规划举措，有望逐步扩大产品在市场中的占有率，提升品牌知名度和影响力，推动项目实现可持续发展。在应对困难和挑战方面，项目制定了切实可行的解决措施，包括技术优化、资金筹措、人才招聘与培养等，为项目的顺利实施提供了有力支撑，确保项目能够在复杂多变的市场环境中稳健前行。</p>
 <p>总体而言，本项目具有重要的文化价值、社会意义和良好的商业前景。通过 AI 技术与文物保护修复工作的深度融合，不仅能够有效解决当前文物修复领域的诸多问题，提高修复效率和质量，还能够为文化遗产的传承和保护做出积极贡献，让古老的文化遗产在现代社会中焕发出新的生机与活力，实现文化、社会和经济效益的多重共赢。</p>
-
-            </div>
-        </article>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/ai/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">AI</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/%E6%96%87%E7%89%A9%E4%BF%AE%E5%A4%8D/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">文物修复</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/%E7%A7%91%E6%8A%80/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">科技</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/%E7%AD%96%E5%88%92%E4%B9%A6/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">策划书</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
     </div>
-</div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
 
     </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  AI文物修复项目策划书 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
 
-    
-    <footer class="mt-auto">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5><i class="fas fa-monument me-2"></i>AI文物修复项目</h5>
-                    <p class="mb-0">运用人工智能技术，重塑文物修复新时代</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <p class="mb-0">&copy; 2024 AI文物修复项目团队. 保留所有权利.</p>
-                    <small class="text-muted">Powered by Hugo & Custom TOC Theme</small>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-    
-<script>
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        const tocLinks = document.querySelectorAll('.toc-content a');
-        const headings = document.querySelectorAll('.article-content h1, .article-content h2, .article-content h3, .article-content h4, .article-content h5, .article-content h6');
-        
-        function updateActiveLink() {
-            let current = '';
-            headings.forEach(heading => {
-                const rect = heading.getBoundingClientRect();
-                if (rect.top <= 100) {
-                    current = heading.id;
-                }
-            });
-            
-            tocLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) {
-                    link.classList.add('active');
-                }
-            });
-        }
-        
-        
-        window.addEventListener('scroll', updateActiveLink);
-        updateActiveLink();
-        
-        
-        tocLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    });
-</script>
-
-</body>
-</html> 
+  </body>
+</html>

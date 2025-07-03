@@ -1,7 +1,7 @@
 baseURL = 'https://192.168.159.1:1313'
 languageCode = 'zh-cn'
 title = 'AI文物修复项目策划书'
-theme = 'doks'
+theme = 'ananke'
 
 # 网站参数
 [params]

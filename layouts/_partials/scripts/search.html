@@ -1,0 +1,17 @@
+{{/* Search */}}
+{{- if (site.Params.search.enable | default true) -}}
+  {{- $searchType := site.Params.search.type | default "flexsearch" -}}
+  {{- if eq $searchType "flexsearch" -}}
+    {{- $jsSearchScript := printf "%s.search.js" .Language.Lang -}}
+    {{- $jsSearch := resources.Get "js/flexsearch.js" | resources.ExecuteAsTemplate $jsSearchScript . -}}
+    {{- if hugo.IsProduction -}}
+      {{- $jsSearch = $jsSearch | minify | fingerprint -}}
+    {{- end -}}
+    {{/* Use local FlexSearch file */}}
+    {{- $flexSearchJs := resources.Get "js/flexsearch.bundle.debug.js" | fingerprint -}}
+    <script defer src="{{ $flexSearchJs.RelPermalink }}" integrity="{{ $flexSearchJs.Data.Integrity }}" crossorigin="anonymous"></script>
+    <script defer src="{{ $jsSearch.RelPermalink }}" integrity="{{ $jsSearch.Data.Integrity }}"></script>
+  {{- else -}}
+    {{- warnf `search type "%s" is not supported` $searchType -}}
+  {{- end -}}
+{{- end -}}

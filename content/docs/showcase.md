@@ -4,8 +4,5 @@ type: docs
 weight: 6
 ---
 
-
-
-
-
-{{< bilibili bvid="BV1wJKVzzEbw" aid="114738306553529" cid="30675897178" p="1" height="400px" >}}
+<video src="/videos/6f8d5a8e73380f45c5d74608e4687da5.mp4" autoplay="true" controls="controls" width="800" height="600">
+</video>

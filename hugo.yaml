@@ -24,7 +24,7 @@ menu:
       pageRef: /docs
       weight: 1
     - name: 项目展示
-      pageRef: /showcase
+      pageRef: /docs/showcase
       weight: 2
     - name: 关于项目
       pageRef: /about
@@ -33,23 +33,23 @@ menu:
       weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/your-repo/ai-heritage-restoration"
-      params:
-        icon: github
+    # - name: GitHub
+    #   weight: 5
+    #   url: "https://github.com/your-repo/ai-heritage-restoration"
+    #   params:
+    #     icon: github
 
-  sidebar:
-    - name: 更多
-      params:
-        type: separator
-      weight: 1
-    - name: "项目展示"
-      pageRef: "/showcase"
-      weight: 2
-    - name: "技术文档"
-      url: "https://docs.ai-heritage.com"
-      weight: 3
+  # sidebar:
+    # - name: 更多
+    #   params:
+    #     type: separator
+    #   weight: 1
+    # - name: "项目展示"
+    #   pageRef: "/showcase"
+    #   weight: 2
+    # - name: "技术文档"
+    #   url: "https://docs.ai-heritage.com"
+    #   weight: 3
 
 # 主题参数
 params:
@@ -94,7 +94,7 @@ params:
 
   # 编辑链接配置
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/your-repo/ai-heritage-restoration/edit/main"
 
   # 其他配置

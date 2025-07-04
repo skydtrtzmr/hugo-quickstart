@@ -6,11 +6,9 @@ weight: 1
 
 <!-- # 第1章 项目背景深度分析 -->
 
-![文物修复背景](/images/FuzerCastle_ZH-CN5485191349_1920x1080.jpg)
+![文物修复背景](/images/20250704200805.png)
 
-## 项目演示视频
 
-{{< bilibili bvid="BV1wJKVzzEbw" aid="114738306553529" cid="30675897178" p="1" height="400px" >}}
 
 ## 1.1 国内文物修复市场全景数据
 

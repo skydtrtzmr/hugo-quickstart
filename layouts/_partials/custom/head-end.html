@@ -1,0 +1,36 @@
+<style>
+/* 为正文段落添加首行缩进2字符 */
+.content p {
+  text-indent: 2em;
+}
+
+/* 排除一些特殊元素，如标题、代码块、引用等 */
+.content h1 p,
+.content h2 p,
+.content h3 p,
+.content h4 p,
+.content h5 p,
+.content h6 p,
+.content blockquote p,
+.content pre p,
+.content code p,
+.content .highlight p,
+.content table p {
+  text-indent: 0;
+}
+
+/* 排除第一个段落（通常是摘要） */
+.content p:first-child {
+  text-indent: 2em;
+}
+
+/* 针对中文内容的优化 */
+.content p:not(:empty) {
+  text-indent: 2em;
+}
+
+/* 确保列表内的段落也有缩进 */
+.content li p {
+  text-indent: 2em;
+}
+</style> 

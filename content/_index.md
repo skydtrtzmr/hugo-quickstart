@@ -11,23 +11,19 @@ layout: hextra-home
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  AI驱动的文物修复&nbsp;<br class="hx:sm:block hx:hidden" />数字化保护新时代
+  AI驱动的文物修复&nbsp;数字化保护新时代
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx:mb-12">
+<!-- <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
   运用人工智能技术革新文物保护修复流程&nbsp;<br class="hx:sm:block hx:hidden" />传承历史文化，守护民族瑰宝
 {{< /hextra/hero-subtitle >}}
-</div>
+</div> -->
 
-<div class="hx:mb-6">
+<!-- <div class="hx:mb-6">
 {{< hextra/hero-button text="查看详情" link="docs" >}}
-</div>
-
-<div class="hx:mt-6"></div>
-
-## 项目核心内容
+</div> -->
 
 {{< cards cols="3" >}}
   {{< card 

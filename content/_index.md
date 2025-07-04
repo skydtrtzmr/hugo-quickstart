@@ -1,76 +1,74 @@
 ---
-title: Hextra 主题
+title: AI文物修复项目策划书
 layout: hextra-home
 ---
 
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>免费 开源</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+  <span>创新科技 文物保护</span>
+  {{< icon name="sparkles" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  创建现代化网站&nbsp;<br class="hx:sm:block hx:hidden" />由 Markdown 和 Hugo 驱动
+  AI驱动的文物修复&nbsp;<br class="hx:sm:block hx:hidden" />数字化保护新时代
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  极速且全能的 Hugo 主题框架&nbsp;<br class="hx:sm:block hx:hidden" />为构建现代化的静态网站而生
+  运用人工智能技术革新文物保护修复流程&nbsp;<br class="hx:sm:block hx:hidden" />传承历史文化，守护民族瑰宝
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="hx:mb-6">
-{{< hextra/hero-button text="现在开始" link="docs" >}}
+{{< hextra/hero-button text="查看详情" link="docs" >}}
 </div>
 
 <div class="hx:mt-6"></div>
 
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card
-    title="快速且功能全面"
-    subtitle="简单易用，功能强大丰富。"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="/images/hextra-doc.webp"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+## 项目核心内容
+
+探索AI技术在文物修复领域的创新应用，通过深度学习、计算机视觉等前沿技术，实现文物保护的智能化、精准化和标准化。
+
+{{< cards cols="3" >}}
+  {{< card 
+    link="/docs/chapter1-background-analysis" 
+    title="第1章 项目背景深度分析" 
+    image="/images/card/1.jpg"
+    subtitle="深入分析国内文物修复市场现状、政策导向及技术发展趋势，为项目奠定坚实基础。"
   >}}
-  {{< hextra/feature-card
-    title="Markdown 写作"
-    subtitle="只需使用 Markdown 进行编辑。多样的 Shortcode 组件开箱即用。"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
-    image="/images/hextra-markdown.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+  {{< card 
+    link="/docs/chapter2-market-analysis" 
+    title="第2章 市场需求与机遇分析" 
+    image="/images/card/2.jpeg"
+    subtitle="全面调研文物修复市场需求，识别AI技术应用的关键机遇点和发展空间。"
   >}}
-  {{< hextra/feature-card
-    title="全文搜索"
-    subtitle="内置 FlexSearch 全文搜索，无需额外设置。"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="/images/hextra-search.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+  {{< card 
+    link="/docs/chapter3-technical-solution" 
+    title="第3章 技术方案与创新点" 
+    image="/images/card/3.jpg"
+    subtitle="详细阐述AI文物修复的核心技术方案，突出关键创新点和技术突破。"
   >}}
-  {{< hextra/feature-card
-    title="轻如羽毛"
-    subtitle="使用 Hextra 无需依赖 Node.js。由 Hugo 提供支持，Hugo 是最快的静态网站生成器之一，只需一个二进制文件即可在数秒内创建网站。"
+  {{< card 
+    link="/docs/chapter4-implementation-plan" 
+    title="第4章 实施计划与里程碑" 
+    image="/images/card/4.jpg"
+    subtitle="制定详细的项目实施计划，设定明确的阶段性目标和关键里程碑。"
   >}}
-  {{< hextra/feature-card
-    title="响应式布局，暗黑模式"
-    subtitle="适应不同的屏幕尺寸。内置暗黑模式支持，并根据用户的系统偏好自动切换。"
+  {{< card 
+    link="/docs/chapter5-risk-assessment" 
+    title="第5章 风险评估与应对策略" 
+    image="/images/card/5.jpg"
+    subtitle="全面识别项目风险因素，制定有效的风险防控和应对措施。"
   >}}
-  {{< hextra/feature-card
-    title="免费构建和托管"
-    subtitle="使用 GitHub Actions 进行构建，并在 GitHub Pages 上免费托管。也可以托管在任何静态托管服务上。"
+  {{< card 
+    link="/docs/showcase" 
+    title="项目展示视频" 
+    image="/images/card/6.jpg"
+    subtitle="观看项目演示视频，直观了解AI文物修复技术的实际应用效果。"
+    tag="视频演示"
+    tagType="info"
   >}}
-  {{< hextra/feature-card
-    title="多语言轻松实现"
-    subtitle="仅需通过在 Markdown 文件后添加语言代码即可创建多语言页面。向您的站点添加 i18n 支持直观易行。"
-  >}}
-  {{< hextra/feature-card
-    title="还有更多..."
-    icon="sparkles"
-    subtitle="代码高亮 / 目录 / SEO / RSS / LaTeX 公式 / Mermaid 图标 / 自定义 / 等等..."
-  >}}
-{{< /hextra/feature-grid >}}
+{{< /cards >}}
+

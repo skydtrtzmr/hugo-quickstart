@@ -78,8 +78,8 @@ params:
   # 页脚配置
   footer:
     enable: true
-    displayCopyright: true
-    displayPoweredBy: true
+    displayCopyright: false
+    displayPoweredBy: false
     width: wide
 
   # 搜索配置

@@ -1,5 +1,5 @@
 ---
-title: "项目视频展示"
+title: "项目展示"
 type: docs
 weight: 6
 ---

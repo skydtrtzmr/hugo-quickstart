@@ -29,8 +29,6 @@ layout: hextra-home
 
 ## 项目核心内容
 
-探索AI技术在文物修复领域的创新应用，通过深度学习、计算机视觉等前沿技术，实现文物保护的智能化、精准化和标准化。
-
 {{< cards cols="3" >}}
   {{< card 
     link="/docs/chapter1-background-analysis" 

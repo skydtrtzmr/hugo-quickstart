@@ -25,7 +25,7 @@ layout: hextra-home
 {{< hextra/hero-button text="查看详情" link="docs" >}}
 </div> -->
 
-{{< cards cols="4" >}}
+{{< cards cols="3" >}}
   {{< card 
     link="/docs/chapter1-background-analysis" 
     title="第1章 项目背景深度分析" 

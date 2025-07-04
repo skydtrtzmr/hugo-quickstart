@@ -11,7 +11,7 @@ layout: hextra-home
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  AI驱动的文物修复&nbsp;数字化保护新时代
+  “遗韵智修”数字再现文化遗产修复项目策划书
 {{< /hextra/hero-headline >}}
 </div>
 
@@ -25,7 +25,7 @@ layout: hextra-home
 {{< hextra/hero-button text="查看详情" link="docs" >}}
 </div> -->
 
-{{< cards cols="3" >}}
+{{< cards cols="4" >}}
   {{< card 
     link="/docs/chapter1-background-analysis" 
     title="第1章 项目背景深度分析" 

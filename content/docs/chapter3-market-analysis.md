@@ -6,7 +6,7 @@ weight: 3
 
 <!-- # 第3章 市场分析 -->
 
-![市场分析](/images/658f9f2ad5deca83f8f97d4e.jpeg)
+![市场分析](/images/card/3.jpg)
 
 ## 3.1 市场定位
 

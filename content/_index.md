@@ -25,18 +25,18 @@ layout: hextra-home
 {{< hextra/hero-button text="查看详情" link="docs" >}}
 </div> -->
 
-{{< cards cols="3" >}}
+{{< cards cols="4" >}}
   {{< card 
     link="/docs/chapter1-background-analysis" 
     title="第1章 项目背景深度分析" 
     image="/images/card/1.jpg"
-    subtitle="深入分析国内文物修复市场现状、政策导向及技术发展趋势，为项目奠定坚实基础。"
+    subtitle="深入分析国内文物修复现状及趋势，为项目奠定坚实基础。"
   >}}
   {{< card 
     link="/docs/chapter2-market-analysis" 
     title="第2章 市场需求与机遇分析" 
     image="/images/card/2.jpeg"
-    subtitle="全面调研文物修复市场需求，识别AI技术应用的关键机遇点和发展空间。"
+    subtitle="全面调研文物修复市场需求，识别AI应用的关键机遇和发展空间。"
   >}}
   {{< card 
     link="/docs/chapter3-technical-solution" 

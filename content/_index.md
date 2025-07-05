@@ -3,13 +3,14 @@ title: AI文物修复项目策划书
 layout: hextra-home
 ---
 
+
+
+<div class="hx:mb-4">
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
   <span>创新科技 文物保护</span>
   {{< icon name="sparkles" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
-
-<div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
   “遗韵智修”数字再现文化遗产修复项目策划书
 {{< /hextra/hero-headline >}}

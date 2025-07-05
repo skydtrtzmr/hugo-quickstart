@@ -6,6 +6,7 @@ weight: 6
 
 
 <br/>
+{{< bilibili bvid="BV1Ky3Jz5E9o" aid="114795013478284" cid="30851204672" p="1" height="500px" >}}
 
 <br/>
 

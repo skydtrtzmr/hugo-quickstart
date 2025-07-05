@@ -58,8 +58,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
+      path: favicon.svg
+      dark: favicon-dark.svg
       link: /
       width: 40
       height: 20
@@ -73,7 +73,7 @@ params:
   theme:
     # light | dark | system
     default: system
-    displayToggle: true
+    displayToggle: false
 
   # 页脚配置
   footer:

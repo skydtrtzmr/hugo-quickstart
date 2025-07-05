@@ -12,17 +12,41 @@ weight: 2
 
 多功能 AI 文化遗产保护平台，是一款融合前沿 AI 技术与深厚历史文化底蕴，致力于全方位守护文化遗产的综合性解决方案。它打破传统保护模式的局限，将文物保护、修复、研究、传播等多环节有机整合。
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img1.png" alt="chap2-img1" style="width: 48%; height: auto;">
+  <img src="/images/illustration/chap2-img2.png" alt="chap2-img2" style="width: 48%; height: auto;">
+</div>
+
 ## 2.2 产品理念
 
 在历史的长河中，文物承载着无数文明的记忆，但岁月的侵蚀、人为的破坏，自然的洗礼让它们伤痕累累。传统文物修复依赖工匠的经验与技艺，效率与精准度存在一定局限。如今，我们创新性地整合高分辨率三维扫描仪、多光谱 / 高光谱成像系统、X 射线成像 / 计算机断层扫描及显微成像设备，并深度融入 AI 技术，打造全新的 AI 文物修复产品，开启文物保护与修复的智能新时代。​
 
 高分辨率三维扫描仪能够以亚毫米级精度捕捉文物的三维几何形态，无论是青铜器上的复杂纹饰，还是陶器表面细微的凹凸起伏，都能完整、精确地数字化呈现。它如同一位 “数字雕刻师”，为文物构建出逼真的三维数字模型，让文物的每一处细节都能被清晰观察与分析。​
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img3.png" alt="chap2-img3" style="width: 48%; height: auto;">
+  <img src="/images/illustration/chap2-img4.png" alt="chap2-img4" style="width: 48%; height: auto;">
+</div>
+
 多光谱 / 高光谱成像系统则像是文物的 “色彩解码器”，通过捕捉文物在不同光谱下的反射与吸收特性，不仅能还原文物原本绚丽的色彩，还能探测到肉眼难以察觉的褪色、病变区域。例如，壁画在可见光下看似完好，但在特定光谱下，可能暴露出颜料剥落、霉菌滋生等问题，为修复工作提供关键线索。​
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img5.png" alt="chap2-img5" style="width: 48%; height: auto;">
+  <img src="/images/illustration/chap2-img6.png" alt="chap2-img6" style="width: 48%; height: auto;">
+</div>
 
 X 射线成像 / 计算机断层扫描技术宛如 “文物透视眼”，可穿透文物表面，观察其内部结构。对于中空的瓷器、金属器物，能检测内部是否存在裂痕、腐蚀，判断支撑结构是否稳固。通过断层扫描生成的三维图像，修复师能像 “拆解积木” 一样，深入了解文物内部的每一处细节，为制定科学的修复方案提供依据。​
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img7.png" alt="chap2-img7" style="width: 48%; height: auto;">
+  <img src="/images/illustration/chap2-img8.png" alt="chap2-img8" style="width: 48%; height: auto;">
+</div>
+
 显微成像设备则聚焦于文物微观世界，将文物表面的材质变化、微生物侵蚀等微观特征放大呈现在眼前。在对纸质文物、纺织品修复时，显微镜下纤维的断裂、老化程度清晰可见，帮助修复师选择最合适的修复材料与工艺。​
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img9.png" alt="chap2-img9" style="width: 48%; height: auto;">
+</div>
 
 当这些设备采集到海量、多维度的文物数据后，AI 技术将发挥核心作用。利用深度学习算法，AI 能够对文物的损伤情况进行智能诊断，通过分析大量历史修复案例与文物数据，快速制定出最优化的修复方案。在修复过程中，AI 还能实时监控修复进度，根据实际情况动态调整修复策略，确保修复效果既符合文物保护原则，又最大程度还原其历史风貌。​
 
@@ -52,9 +76,7 @@ X 射线成像 / 计算机断层扫描技术宛如 “文物透视眼”，可�
 
 AI 文物修复借助数字化技术，打破了传统修复在时间和空间上的限制。文物的三维数字模型、多光谱图像等数据可以长期保存和远程传输，专家即使身处异地，也能通过网络对文物进行分析和指导修复工作。此外，数字化修复过程还能将修复步骤和效果进行记录，方便后续研究和经验总结，也有利于文物保护知识的传播与传承。
 
-## 2.4 产品组成部分与工作运行原理
-
-### 2.4.1 外部扫描仪器：文物的“数字感官”
+## 2.4 外部扫描仪器：文物的“数字感官”
 
 外部扫描仪器作为系统的“眼睛”和“触觉”，负责将物理文物转化为高精度、多维度的数字模型，为AI分析提供基础数据。根据文物材质、状态和修复需求，可能组合使用以下设备：
 
@@ -64,13 +86,27 @@ AI 文物修复借助数字化技术，打破了传统修复在时间和空间�
 
 获取文物表面的精确三维几何形状、轮廓、尺寸以及捕捉细微的划痕、凹陷、缺损、变形等信息。评估结构完整性，量化缺损区域，记录修复前状态，为虚拟修复和3D打印补配件提供模型基础。
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img10.png" alt="chap2-img10" style="width: 48%; height: auto;">
+  <img src="/images/illustration/chap2-img11.png" alt="chap2-img11" style="width: 48%; height: auto;">
+</div>
+
 #### 2. 多光谱/高光谱成像系统：
 
 捕获文物在可见光及不可见光，如紫外、红外波段下的反射、吸收或荧光特性。揭示隐藏信息，发现被覆盖的颜料层、褪色的文字图案、早期修复痕迹、底稿线。初步识别不同颜料、染料、墨水、涂层、锈蚀产物等。识别肉眼难辨的霉斑、盐析、褪色区域、老化特征。
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img12.png" alt="chap2-img12" style="width: auto; height: 300px;">
+  <img src="/images/illustration/chap2-img13.png" alt="chap2-img13" style="width: auto; height: 300px;">
+</div>
+
 #### 3. X射线成像/计算机断层扫描：
 
 穿透文物表层，获取内部结构、缺陷、修复痕迹，如钉子、胶水、填充物、制作工艺信息，如青铜器范线、陶器接胎痕。了解内部损伤，如裂纹、空洞、腐蚀、评估结构稳定性、研究制作工艺、发现隐藏的铭文或结构。
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img14.png" alt="chap2-img14" style="width: auto; height: 500px;">
+</div>
 
 #### 4. 显微成像设备：
 
@@ -78,7 +114,11 @@ AI 文物修复借助数字化技术，打破了传统修复在时间和空间�
 
 提供微米甚至纳米级别的表面形貌、纹理、颜料颗粒、纤维结构、腐蚀细节等超高分辨率图像。精细分析材料老化、劣化机制，精确诊断病害类型，如裂隙深度、颜料剥落形态，评估修复材料兼容性。
 
-### 2.4.2 内部AI程序：系统的“智慧大脑”
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img15.png" alt="chap2-img15" style="width: auto; height: 300px;">
+</div>
+
+## 2.5 内部AI程序：系统的“智慧大脑”
 
 内部AI程序系统的核心，负责处理扫描数据、进行分析诊断、生成修复方案、辅助决策，并管理修复过程。它包含一系列相互协作的AI模块：
 
@@ -102,7 +142,7 @@ AI 文物修复借助数字化技术，打破了传统修复在时间和空间�
 
 利用增强现实技术，将虚拟修复方案，如填补边界线、清洁区域指示、加固点位置，叠加到真实文物或工作台上，指导修复师进行精准操作。 在关键修复步骤前后进行快速扫描，将新数据与原始数字孪生体和修复方案进行自动比对，监控修复效果是否符合预期，及时发现偏差。自动将整个修复过程，原始数据、诊断报告、方案、操作记录、比对结果，形成完整的、结构化的数字档案。
 
-#### 6. 核心数据库与知识库：
+**核心数据库与知识库：**
 
 1）创建文物数据库，存储所有扫描的原始数据、处理后的数字孪生体、修复档案。
 2）材料数据库，包含各类修复材料的详细理化属性、应用场景、兼容性、老化数据。
@@ -111,13 +151,17 @@ AI 文物修复借助数字化技术，打破了传统修复在时间和空间�
 5）同类文物参考库， 收集同类或同风格文物的高清图像、3D模型、研究成果，用于辅助缺损填补和风格判断。
 6）AI模型库， 存储训练好的各类AI模型及其版本、参数。
 
-### 2.4.3 工作原理：从扫描到修复的闭环流程
+## 2.6 工作原理：从扫描到修复的闭环流程
 
 AI文物修复系统的工作是一个高度集成、人机协作的闭环过程：
 
 #### 1. 数据采集与孪生构建：
 
 技术人员根据文物情况选择合适的扫描仪器组合。对文物进行全方位、多模态扫描，获取原始数据。后使内部AI程序自动处理、配准、融合多源数据，构建高精度的“文物数字孪生体”，存入数据库。
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0;">
+  <img src="/images/illustration/chap2-img16.png" alt="chap2-img16" style="width: 48%; height: auto;">
+</div>
 
 #### 2. AI智能诊断与评估：
 
@@ -139,7 +183,4 @@ AI文物修复系统的工作是一个高度集成、人机协作的闭环过程
 
 修复完成后，对文物进行最终的高精度扫描，记录修复后状态。使用内部AI程序将修复后数据与修复前数据、修复方案、操作记录进行比对分析，生成完整的修复效果评估报告。将所有数据自动归档到数据库，形成该文物的完整数字档案，为未来研究、监测、再次修复提供宝贵依据。
 
-## 2.5 总结
-
-AI文物修复系统代表了文物保护和修复领域的未来方向。它通过深度融合高精度数字化技术、先进的人工智能和人类专家的智慧，构建了一个“感知-认知-决策-执行-记录”的闭环，旨在以更科学、更精准、更高效、更可追溯的方式，让珍贵的文化遗产得以延续其生命与光彩。其成功依赖于强大的硬件基础、先进的AI算法、严谨的修复伦理以及修复师与AI的深度协作。
 

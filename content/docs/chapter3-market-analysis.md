@@ -15,9 +15,12 @@ weight: 3
 1.  **文博机构**（核心客户）
     - 覆盖全国2,045家博物馆（国家文物局，2023），其中省级馆平均年数字化预算超500万元（《中国博物馆数字化发展报告》）
     - 典型案例：故宫博物院2023年投入3,200万元用于智能修复设备采购（故宫年度报告）
+    ![chap3-img1](/images/illustration/chap3-img1.png)
+
 2.  **高校与研究机构**
     - 全国87所高校开设文化遗产保护专业，年需求教学设备约1.2亿元（教育部2023年高职专业目录）
     - 清华大学、北京大学等已建立“智能修复实验室”，采购单价超200万元/套（高校招标信息）
+
 3.  **民间修复工作室**
     - 国内注册工作室超3,800家，70%年预算低于50万元（天眼查行业报告），需万元级轻量化解决方案
 
@@ -41,6 +44,8 @@ weight: 3
 - 2023年财政部新增“文物数字化专项”资金25亿元（财政部官网）
 - 31个省份将“智能修复”写入文化发展规划（国务院政策文件库）
 
+![chap3-img2](/images/illustration/chap3-img2.png)
+
 ## 3.3 主要市场
 
 #### 核心市场（一线/新一线城市）
@@ -60,3 +65,9 @@ weight: 3
 - “一带一路”沿线65国中，47国有中国援建文保项目（商务部对外投资公报）
 - 东南亚市场首单落地：柬埔寨吴哥窟修复项目（合同金额420万元，新华社报道）
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 20px 0 0 0;">
+  <img src="/images/illustration/chap3-img3.png" alt="chap3-img3" style="width: auto; height: 300px;">
+  <img src="/images/illustration/chap3-img4.png" alt="chap3-img4" style="width: auto; height: 300px;">
+</div>
+
+<span style="font-size: 12px; color: #666;">周萨神庙中央圣殿维修前后对比</span>

@@ -77,7 +77,7 @@ params:
 
   # 页脚配置
   footer:
-    enable: true
+    enable: false
     displayCopyright: false
     displayPoweredBy: false
     width: wide

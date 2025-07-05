@@ -186,6 +186,15 @@ a:hover {
 table {
   border-collapse: collapse;
   background: var(--aged-ivory);
+  width: auto;
+  margin: 1rem 0;
+}
+
+table th,
+table td {
+  padding: 8px 12px;
+  text-align: left;
+  white-space: nowrap;
 }
 
 /* table th {

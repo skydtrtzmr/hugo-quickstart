@@ -197,11 +197,11 @@ table td {
   white-space: nowrap;
 }
 
-/* table th {
-  background: linear-gradient(135deg, var(--wood-brown) 0%, var(--bronze) 100%);
+table th {
+  background: var(--bronze);
   color: var(--aged-ivory);
   border: 1px solid var(--wood-brown);
-} */
+}
 
 table td {
   border: 1px solid var(--wood-brown);
@@ -215,10 +215,10 @@ table tr:nth-child(even) {
   background: var(--bg-wood-dark);
 }
 
-/* .dark table th {
-  background: linear-gradient(135deg, var(--bronze) 0%, var(--antique-gold) 100%);
+.dark table th {
+  background: var(--antique-gold);
   color: var(--bg-wood-dark);
-} */
+}
 
 .dark table td {
   border-color: var(--bronze);

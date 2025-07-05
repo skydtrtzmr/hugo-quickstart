@@ -34,25 +34,25 @@ layout: hextra-home
   >}}
   {{< card 
     link="/docs/chapter2-product-intro" 
-    title="第2章 市场需求与机遇分析" 
+    title="第2章 项目产品介绍" 
     image="/images/card/2.jpeg"
     subtitle="全面调研文物修复市场需求，识别AI应用的关键机遇和发展空间。"
   >}}
   {{< card 
     link="/docs/chapter3-market-analysis" 
-    title="第3章 技术方案与创新点" 
+    title="第3章 市场分析" 
     image="/images/card/3.jpg"
     subtitle="详细阐述AI文物修复的核心技术方案，突出关键创新点和技术突破。"
   >}}
   {{< card 
     link="/docs/chapter4-development-plan" 
-    title="第4章 实施计划与里程碑" 
+    title="第4章 发展规划" 
     image="/images/card/4.jpg"
     subtitle="制定详细的项目实施计划，设定明确的阶段性目标和关键里程碑。"
   >}}
   {{< card 
     link="/docs/chapter5-summary" 
-    title="第5章 风险评估与应对策略" 
+    title="第5章 总结" 
     image="/images/card/5.jpg"
     subtitle="全面识别项目风险因素，制定有效的风险防控和应对措施。"
   >}}

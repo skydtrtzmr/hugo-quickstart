@@ -1,0 +1,258 @@
+/* 文物古老质感的木色主题 */
+
+:root {
+  /* 主色调：温暖的木色 */
+  --primary-hue: 30deg;           /* 温暖的棕色调 */
+  --primary-saturation: 45%;      /* 适中的饱和度，不过于鲜艳 */
+  --primary-lightness: 35%;       /* 深度适中的亮度 */
+  
+  /* 辅助色调：古典文物色彩 */
+  --wood-brown: #8B4513;          /* 深木色 */
+  --antique-gold: #D4AF37;        /* 古金色 */
+  --parchment: #F5F5DC;           /* 羊皮纸色 */
+  --bronze: #CD7F32;              /* 青铜色 */
+  --aged-ivory: #FDF5E6;          /* 古象牙白 */
+  
+  /* 背景色调 */
+  --bg-wood-light: #FAF0E6;       /* 浅木色背景 */
+  --bg-wood-dark: #2F1B14;        /* 深木色背景 */
+}
+
+.dark {
+  /* 深色模式下的木色主题 */
+  --primary-hue: 25deg;
+  --primary-saturation: 50%;
+  --primary-lightness: 45%;
+}
+
+/* 导航栏木色质感 */
+.nav-container {
+  background: linear-gradient(135deg, var(--wood-brown) 0%, var(--bronze) 100%) !important;
+  border-bottom: 1px solid var(--antique-gold) !important;
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.3) !important;
+}
+
+.nav-container-blur {
+  background: linear-gradient(135deg, var(--wood-brown) 0%, var(--bronze) 100%) !important;
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.3) !important;
+}
+
+.dark .nav-container {
+  background: linear-gradient(135deg, var(--bg-wood-dark) 0%, var(--wood-brown) 100%) !important;
+  border-bottom: 1px solid var(--bronze) !important;
+}
+
+.dark .nav-container-blur {
+  background: linear-gradient(135deg, var(--bg-wood-dark) 0%, var(--wood-brown) 100%) !important;
+}
+
+/* 导航栏文字颜色 - 与木色背景形成对比 */
+.nav-container nav,
+.nav-container nav a,
+.nav-container nav button,
+.nav-container nav span {
+  color: var(--aged-ivory) !important;
+}
+
+.nav-container nav a:hover,
+.nav-container nav button:hover {
+  color: var(--parchment) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* 导航栏图标颜色 */
+.nav-container nav svg {
+  color: var(--aged-ivory) !important;
+}
+
+.nav-container nav svg:hover {
+  color: var(--parchment) !important;
+}
+
+/* 汉堡菜单按钮 */
+.hamburger-menu {
+  color: var(--aged-ivory) !important;
+}
+
+.hamburger-menu:hover {
+  color: var(--parchment) !important;
+  background: rgba(253, 245, 230, 0.1) !important;
+}
+
+/* 搜索框在导航栏中的样式 */
+.nav-container .search-input {
+  background: rgba(253, 245, 230, 0.2) !important;
+  border: 1px solid var(--aged-ivory) !important;
+  color: var(--aged-ivory) !important;
+}
+
+.nav-container .search-input::placeholder {
+  color: rgba(253, 245, 230, 0.7) !important;
+}
+
+.nav-container .search-input:focus {
+  background: rgba(253, 245, 230, 0.3) !important;
+  border-color: var(--antique-gold) !important;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3) !important;
+}
+
+/* 卡片组件木色主题 */
+.hextra-cards .hextra-card {
+  background: linear-gradient(135deg, var(--aged-ivory) 0%, var(--parchment) 100%);
+  border: 1px solid var(--wood-brown);
+  box-shadow: 0 4px 12px rgba(139, 69, 19, 0.15);
+  transition: all 0.3s ease;
+}
+
+.hextra-cards .hextra-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(139, 69, 19, 0.2);
+  border-color: var(--bronze);
+}
+
+.dark .hextra-cards .hextra-card {
+  background: linear-gradient(135deg, #2F1B14 0%, #3A2317 100%);
+  border-color: var(--bronze);
+}
+
+/* 主标题木色质感 */
+.hextra-hero-headline {
+  background: linear-gradient(135deg, var(--wood-brown) 0%, var(--bronze) 50%, var(--antique-gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.3);
+}
+
+/* 按钮木色主题 */
+.hextra-button-primary {
+  background: linear-gradient(135deg, var(--wood-brown) 0%, var(--bronze) 100%);
+  color: var(--aged-ivory);
+  border: none;
+  box-shadow: 0 4px 12px rgba(139, 69, 19, 0.3);
+  transition: all 0.3s ease;
+}
+
+.hextra-button-primary:hover {
+  background: linear-gradient(135deg, var(--bronze) 0%, var(--antique-gold) 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(139, 69, 19, 0.4);
+}
+
+/* 徽章木色主题 */
+.hextra-hero-badge {
+  background: linear-gradient(135deg, var(--parchment) 0%, var(--aged-ivory) 100%);
+  border: 1px solid var(--wood-brown);
+  color: var(--wood-brown);
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.15);
+}
+
+.dark .hextra-hero-badge {
+  background: linear-gradient(135deg, var(--bg-wood-dark) 0%, #3A2317 100%);
+  border-color: var(--bronze);
+  color: var(--antique-gold);
+}
+
+/* 链接木色主题 */
+a {
+  color: var(--wood-brown);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--bronze);
+}
+
+.dark a {
+  color: var(--antique-gold);
+}
+
+.dark a:hover {
+  color: var(--bronze);
+}
+
+/* 文档侧边栏木色主题 */
+.hextra-sidebar {
+  background: linear-gradient(180deg, var(--bg-wood-light) 0%, var(--parchment) 100%);
+  border-right: 1px solid var(--wood-brown);
+}
+
+.dark .hextra-sidebar {
+  background: linear-gradient(180deg, var(--bg-wood-dark) 0%, #3A2317 100%);
+  border-right-color: var(--bronze);
+}
+
+/* 表格木色主题 */
+table {
+  border-collapse: collapse;
+  background: var(--aged-ivory);
+}
+
+/* table th {
+  background: linear-gradient(135deg, var(--wood-brown) 0%, var(--bronze) 100%);
+  color: var(--aged-ivory);
+  border: 1px solid var(--wood-brown);
+} */
+
+table td {
+  border: 1px solid var(--wood-brown);
+}
+
+table tr:nth-child(even) {
+  background: var(--parchment);
+}
+
+.dark table {
+  background: var(--bg-wood-dark);
+}
+
+/* .dark table th {
+  background: linear-gradient(135deg, var(--bronze) 0%, var(--antique-gold) 100%);
+  color: var(--bg-wood-dark);
+} */
+
+.dark table td {
+  border-color: var(--bronze);
+}
+
+.dark table tr:nth-child(even) {
+  background: #3A2317;
+}
+
+/* 添加古典纹理效果 */
+.hextra-content {
+  position: relative;
+}
+
+.hextra-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(139, 69, 19, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(205, 127, 50, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(212, 175, 55, 0.01) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* 滚动条木色主题 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--parchment);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--wood-brown);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bronze);
+} 

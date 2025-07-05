@@ -37,4 +37,46 @@
 .hextra-cards {
   gap: 2rem !important; /* 扩大卡片间距 */
 }
+
+/* 确保木色主题变量优先级 */
+:root {
+  --primary-hue: 30deg !important;
+  --primary-saturation: 45% !important;
+  --primary-lightness: 35% !important;
+}
+
+.dark {
+  --primary-hue: 25deg !important;
+  --primary-saturation: 50% !important;
+  --primary-lightness: 45% !important;
+}
+
+/* 为主页标题添加特殊的古典效果 */
+.hextra-hero-headline {
+  text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.3) !important;
+  font-weight: 700 !important;
+}
+
+/* 为卡片添加古典阴影效果 */
+.hextra-cards .hextra-card {
+  box-shadow: 0 4px 12px rgba(139, 69, 19, 0.15) !important;
+}
+
+.hextra-cards .hextra-card:hover {
+  box-shadow: 0 8px 24px rgba(139, 69, 19, 0.25) !important;
+}
+
+/* 为表格添加古典边框 */
+.content table {
+  border: 2px solid #8B4513 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+/* 为图片添加古典边框 */
+.content img {
+  border: 1px solid #D4AF37 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.1) !important;
+}
 </style> 

@@ -30,31 +30,31 @@ layout: hextra-home
     link="/docs/chapter1-background-analysis" 
     title="第1章 项目背景深度分析" 
     image="/images/card/1.jpg"
-    subtitle="深入分析国内文物修复现状及趋势，为项目奠定坚实基础。"
+    subtitle="深度解析文物修复市场现状，把握政策导向与行业标准。"
   >}}
   {{< card 
     link="/docs/chapter2-product-intro" 
     title="第2章 项目产品介绍" 
     image="/images/card/2.jpeg"
-    subtitle="全面调研文物修复市场需求，识别AI应用的关键机遇和发展空间。"
+    subtitle="融合高精度扫描与AI技术，构建智能化文物修复平台。"
   >}}
   {{< card 
     link="/docs/chapter3-market-analysis" 
     title="第3章 市场分析" 
     image="/images/card/3.jpg"
-    subtitle="详细阐述AI文物修复的核心技术方案，突出关键创新点和技术突破。"
+    subtitle="精准定位文博机构需求，深度分析市场商业机遇。"
   >}}
   {{< card 
     link="/docs/chapter4-development-plan" 
     title="第4章 发展规划" 
     image="/images/card/4.jpg"
-    subtitle="制定详细的项目实施计划，设定明确的阶段性目标和关键里程碑。"
+    subtitle="制定推广策略与发展机制，有效应对关键挑战。"
   >}}
   {{< card 
     link="/docs/chapter5-summary" 
     title="第5章 总结" 
     image="/images/card/5.jpg"
-    subtitle="全面识别项目风险因素，制定有效的风险防控和应对措施。"
+    subtitle="展望AI文物修复的文化价值，科技守护文明传承。"
   >}}
   {{< card 
     link="/docs/showcase" 

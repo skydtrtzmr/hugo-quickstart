@@ -12,7 +12,7 @@ layout: hextra-home
   {{< icon name="sparkles" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 {{< hextra/hero-headline >}}
-  “遗韵智修”数字再现文化遗产修复项目策划书
+  “遗韵智修 数字再现”文化遗产修复项目策划书
 {{< /hextra/hero-headline >}}
 </div>
 

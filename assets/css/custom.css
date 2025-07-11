@@ -186,7 +186,7 @@ a:hover {
 table {
   border-collapse: collapse;
   background: var(--aged-ivory);
-  width: auto;
+  width: fit-content;
   margin: 1rem 0;
 }
 
